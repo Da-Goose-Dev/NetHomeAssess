@@ -12,5 +12,6 @@
     "pplane",
     "srch",
     "xsml"
-  ]
+  ],
+  "editor.fontSize": 11
 }
