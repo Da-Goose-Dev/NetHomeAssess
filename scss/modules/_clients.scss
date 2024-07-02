@@ -1,0 +1,23 @@
+.descp {
+  display: none;
+}
+.itm {
+  max-height: 70px;
+  height: 70px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sect.clients .list {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.client-slide {
+  width: 1vw;
+}
+.h3 h3 {
+  font-size: 1.625rem;
+}
