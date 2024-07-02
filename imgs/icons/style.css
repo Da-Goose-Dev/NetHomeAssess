@@ -1,0 +1,104 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icn-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icn-software {
+  width: 1.3125em;
+}
+
+.icn-folder {
+  width: 1.091796875em;
+}
+
+.icn-clock {
+  width: 0.8571428571428571em;
+}
+
+.icn-headphones {
+  width: 0.9285714285714285em;
+}
+
+.icn-pencil {
+  width: 0.8454285714285714em;
+}
+
+.icn-question {
+  width: 0.8571428571428571em;
+}
+
+.icn-cart {
+  width: 0.9285714285714285em;
+}
+
+.icn-cogs {
+  width: 1.0714285714285714em;
+}
+
+.icn-phone-square {
+  width: 0.8571428571428571em;
+}
+
+.icn-facebook {
+  width: 0.5881428571428571em;
+}
+
+.icn-globe {
+  width: 0.8571428571428571em;
+}
+
+.icn-group {
+  width: 1.0714285714285714em;
+}
+
+.icn-cloud {
+  width: 1.0714285714285714em;
+}
+
+.icn-flask {
+  width: 0.9285714285714285em;
+}
+
+.icn-money {
+  width: 1.0714285714285714em;
+}
+
+.icn-linkedin {
+  width: 0.8571428571428571em;
+}
+
+.icn-cloud-dwnld {
+  width: 1.0714285714285714em;
+}
+
+.icn-laptop {
+  width: 1.0714285714285714em;
+}
+
+.icn-code {
+  width: 1.0714285714285714em;
+}
+
+.icn-insta {
+  width: 0.8571428571428571em;
+}
+
+.icn-graduation {
+  width: 1.2857142857142856em;
+}
+
+.icn-handshake {
+  width: 1.2857142857142856em;
+}
