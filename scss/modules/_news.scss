@@ -1,0 +1,156 @@
+.late-view-all {
+  margin-top: 20px;
+  text-align: right;
+
+  .h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+
+    a {
+      color: #333645;
+      text-decoration: none;
+
+      .icn-arrow-right {
+        margin-left: 5px;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+.item.article {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+
+  .img-box {
+    position: relative;
+    height: 200px; // Adjust as needed
+    overflow: hidden;
+
+    .cat- {
+      &amanda {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #4183c4;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px;
+        z-index: 2;
+      }
+      &tessa,
+      &tom {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #db8c0d;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px;
+        z-index: 2;
+      }
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    h2 {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      color: #fff;
+      font-size: 24px;
+      max-width: 45%;
+      margin: 0;
+    }
+  }
+
+  .block {
+    padding: 20px;
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      color: #4183c4;
+
+      .read-time {
+        font-size: 14px;
+        color: #888;
+        font-weight: normal;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .btn- {
+      &amanda {
+        display: inline-block;
+        background-color: #4183c4;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 3px;
+      }
+      &tessa,
+      &tom {
+        display: inline-block;
+        background-color: #db8c0d;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 3px;
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+
+      .avtr {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 10px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .deats {
+        font-size: 14px;
+        color: #333;
+
+        .txt-prime {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

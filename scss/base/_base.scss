@@ -6,6 +6,9 @@ body {
   font-size: 1rem;
   letter-spacing: 0.4px;
   color: #666;
+  width: 100%;
+  max-width: 1000px;
+  overflow: auto;
 }
 .page-wrap {
   width: 100%;
