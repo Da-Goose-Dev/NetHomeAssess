@@ -243,6 +243,33 @@
   content: "\e91b";
 }
 
+@font-face {
+  font-family: "icomoon";
+  src: url("../imgs/icomoon_5/fonts/icomoon2.eot?pg8ppf");
+  src: url("../imgs/icomoon_5/fonts/icomoon2.eot?pg8ppf#iefix") format("embedded-opentype"), url("../imgs/icomoon_5/fonts/icomoon2.ttf?pg8ppf") format("truetype"), url("../imgs/icomoon_5/fonts/icomoon2.woff?pg8ppf") format("woff"), url("../imgs/icomoon_5/fonts/icomoon2.svg?pg8ppf#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-star:before {
+  content: "\e900";
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -564,14 +591,7 @@ body {
   letter-spacing: 0.4px;
   color: #666;
   width: 100%;
-  max-width: 1000px;
-  overflow: auto;
-}
-
-.page-wrap {
-  width: 100%;
-  padding: 5px 0;
-  max-width: 1000px;
+  margin: 0 auto;
 }
 
 a {
@@ -580,10 +600,12 @@ a {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.pull-right {
+  margin-left: 15px;
 }
 
 .late-view-all {
@@ -597,6 +619,34 @@ a {
   color: #fff;
   background-color: #333645;
   border-color: #333645;
+}
+.btn-trustp {
+  background-color: #00b67b;
+  display: inline-flex;
+  white-space: nowrap;
+  max-width: fit-content;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.btn-google {
+  background-color: #4387f6;
+  display: inline-flex;
+  white-space: nowrap;
+  max-width: fit-content;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.btn-prime-inverse {
+  background-color: #272936;
+  display: inline-flex;
+  white-space: nowrap;
+  max-width: fit-content;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 footer {
@@ -693,18 +743,7 @@ footer .foot-menu ul li a:hover {
 }
 
 .foot-bottom {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8125rem;
-  padding-top: 10px;
-  width: 100%;
-  left: 0;
-  background: #212330;
-  border: 0;
-}
-
-.foot-bottom {
-  background-color: #333333;
+  background-color: #212330;
   color: #ffffff;
   padding: 10px 0;
   font-size: 14px;
@@ -714,23 +753,20 @@ footer .foot-menu ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 768px) {
-  .foot-bottom .box-foot-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
 .foot-bottom .license {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
 }
 .foot-bottom .license ul {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 0 15px;
+  margin: 0px;
+  align-items: flex-start;
 }
 .foot-bottom .license ul li {
-  display: inline;
+  display: flex;
 }
 .foot-bottom .license ul li a {
   color: #ffffff;
@@ -858,6 +894,7 @@ footer .foot-menu ul li a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
+  margin: 10px 0;
 }
 .item.article .img-box {
   position: relative;
@@ -1001,81 +1038,49 @@ footer .foot-menu ul li a:hover {
   max-height: 100%;
   object-fit: contain;
 }
-.sect.partners .list.sliding-partners .itm .descp {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #333645;
-  color: #ffffff;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  padding: 20px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.sect.partners .list.sliding-partners .itm .descp .box {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-}
-.sect.partners .list.sliding-partners .itm .descp .box h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.sect.partners .list.sliding-partners .itm .descp .box p {
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-.sect.partners .list.sliding-partners .itm .descp .box .btn {
-  margin-top: auto;
-  background-color: #67809f;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 8px 15px;
-  font-size: 14px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: background-color 0.3s ease;
-}
-.sect.partners .list.sliding-partners .itm .descp .box .btn:hover {
-  background-color: #536d8b;
-}
-.sect.partners .list.sliding-partners .itm .descp .box .btn .icn-arrow-right {
-  margin-left: 5px;
-}
-.sect.partners .list.sliding-partners .itm .descp .box .btn .icn-arrow-right:after {
-  content: "→";
-}
-.sect.partners .list.sliding-partners .itm .descp .box .arrow {
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #333645;
-}
-.sect.partners .list.sliding-partners .itm:hover .descp {
-  opacity: 1;
-}
 
-@media (max-width: 768px) {
-  .late-view-all {
-    text-align: center;
-  }
-  .sect.clients .list.client-slide .itm {
-    width: 150px;
-    height: 150px;
-  }
-}
 .brand-background {
   background-color: #333645;
   color: #fff;
+  padding: 15px 5px;
+}
+.brand-background .h1 {
+  font-weight: 600;
+}
+.brand-background .btn {
+  margin-bottom: 10px;
+}
+.brand-background .btn:last-of-type {
+  margin-bottom: 20px;
+}
+.brand-background a {
+  color: #fff;
+}
+.brand-background .star-box {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.brand-background .star-box .icn {
+  display: flex;
+  justify-content: start;
+}
+
+.client-quote-author {
+  color: grey;
+  font-weight: 600;
+  font-size: 1.1em a;
+  font-size-color: white;
+}
+
+.client-quote {
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.logo {
+  width: 75%;
 }
 
 /*# sourceMappingURL=application.css.map */

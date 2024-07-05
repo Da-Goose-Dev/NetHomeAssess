@@ -4,8 +4,38 @@
   color: #333645;
   font-weight: 600;
 }
-.btn-prime {
-  color: #fff;
-  background-color: #333645;
-  border-color: #333645;
+.btn- {
+  &prime {
+    color: #fff;
+    background-color: #333645;
+    border-color: #333645;
+  }
+  &trustp {
+    background-color: #00b67b;
+    display: inline-flex;
+    white-space: nowrap;
+    max-width: fit-content;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+  &google {
+    background-color: #4387f6;
+    display: inline-flex;
+    white-space: nowrap;
+    max-width: fit-content;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+  &prime-inverse {
+    background-color: #272936;
+    display: inline-flex;
+    white-space: nowrap;
+    max-width: fit-content;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 }

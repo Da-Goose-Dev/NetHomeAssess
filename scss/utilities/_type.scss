@@ -194,3 +194,37 @@
 .icn-mouse:before {
   content: "\e91b";
 }
+@font-face {
+  font-family: "icomoon";
+  src: url("../imgs/icomoon_5/fonts/icomoon2.eot?pg8ppf");
+  src: url("../imgs/icomoon_5/fonts/icomoon2.eot?pg8ppf#iefix") format("embedded-opentype"),
+    url("../imgs/icomoon_5/fonts/icomoon2.ttf?pg8ppf") format("truetype"),
+    url("../imgs/icomoon_5/fonts/icomoon2.woff?pg8ppf") format("woff"),
+    url("../imgs/icomoon_5/fonts/icomoon2.svg?pg8ppf#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-star:before {
+  content: "\e900";
+}
+// .icon-arrow_forward:before {
+//   content: "\e901";
+// }

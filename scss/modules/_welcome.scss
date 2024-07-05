@@ -1,4 +1,38 @@
 .brand-background {
   background-color: #333645;
   color: #fff;
+  padding: 15px 5px;
+  .h1 {
+    font-weight: 600;
+  }
+  .btn {
+    margin-bottom: 10px;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+  a {
+    color: #fff;
+  }
+  .star-box {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    .icn {
+      display: flex;
+      justify-content: start;
+    }
+  }
+}
+.client-quote-author {
+  color: grey;
+  font-weight: 600;
+  font-size: 1.1em a {
+    color: white;
+  }
+}
+.client-quote {
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-style: italic;
 }
