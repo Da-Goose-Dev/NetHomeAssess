@@ -1,0 +1,116 @@
+.middle {
+  .container {
+    background-color: #f4f4f4;
+  }
+}
+.hide-xsml {
+  display: none;
+}
+.serv-list {
+  .h1 {
+    font-weight: 400;
+    font-size: 2.7rem;
+    color: #333645;
+    font-family: "Poppins", sans-serif;
+  }
+  .flex {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+    text-align: center;
+    padding: 25px;
+    width: 350px;
+    height: 300px;
+    .h2 {
+      justify-content: center;
+      display: flex;
+      font-size: 1.3rem;
+      position: relative;
+      padding-bottom: 10px;
+      margin: 0 0 11px;
+    }
+    .icn {
+      display: block;
+      font-size: 35px;
+      color: #fff;
+      margin-bottom: 25px;
+
+      &-laptop {
+        background-color: #67809f;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-disp {
+        background-color: #4183d7;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-bar-graph {
+        background-color: #2ecc71;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-phn-in-tlk {
+        background-color: #d64541;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-code {
+        background-color: #926fb1;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-security {
+        background-color: #f62459;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-grad-cap {
+        background-color: #ce4125;
+        border-radius: 50%;
+        padding: 15px;
+      }
+    }
+    .p {
+      display: block;
+      font-size: 0.8125rem;
+      line-height: 1.375rem;
+      margin-bottom: 13px;
+      font-weight: 400;
+    }
+    .btn {
+      height: auto;
+      line-height: 35px;
+      padding: 5px 15px;
+      text-transform: uppercase;
+      font-size: 1.063rem;
+      border-radius: 3px;
+      white-space: normal;
+      color: #fff;
+      &-software {
+        background-color: #f7b322;
+      }
+      &-it {
+        background-color: #4183d7;
+      }
+      &-digital {
+        background-color: #2ecc71;
+      }
+      &-telecoms {
+        background-color: #d64541;
+      }
+      &-web {
+        background-color: #926fb1;
+      }
+      &-security {
+        background-color: #f62459;
+      }
+      &-dev-course {
+        background-color: #ce4125;
+      }
+    }
+  }
+}
