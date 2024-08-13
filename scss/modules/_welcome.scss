@@ -1,24 +1,57 @@
 .brand-background {
   background-color: #333645;
   color: #fff;
-  padding: 15px 5px;
+  padding: 15px;
   .h1 {
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 400;
   }
-  .btn {
-    margin-bottom: 10px;
+  .welcome-section {
+   p {
+    line-height: 2;
+    &:first-of-type {
+    font-weight: 400;
+    }
+   }
+  }
+  p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+    a {
+      font-size: 16px;
+    }
+  }
+  .button {
+    display: flex;
+    background-color: #272936;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px 25px;
+    gap: 10px;
+    margin-left: 0;
+    max-width: fit-content;
+    border-radius: 5px;
     &:last-of-type {
       margin-bottom: 20px;
+    }
+    &-google {
+      background-color: #4387F6;
+      margin-bottom: 20px;
+    }
+    &-trustpilot {
+      background-color: #00B67B;
     }
   }
   a {
     color: #fff;
+    font-size: 20px;
   }
   .star-box {
     display: flex;
     flex-direction: row;
     gap: 5px;
-    .icn {
+    .icon {
       display: flex;
       justify-content: start;
     }
@@ -27,7 +60,8 @@
 .client-quote-author {
   color: grey;
   font-weight: 600;
-  font-size: 1.1em a {
+  font-size: 1.1em 
+  a {
     color: white;
   }
 }

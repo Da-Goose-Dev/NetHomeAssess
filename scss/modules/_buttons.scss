@@ -1,41 +1,31 @@
-.late-view-all {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333645;
-  font-weight: 600;
-}
-.btn- {
-  &prime {
-    color: #fff;
-    background-color: #333645;
-    border-color: #333645;
+.button {
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  white-space: normal;
+  color: #fff;
+  &-software {
+    background-color: #f7b322;
   }
-  &trustp {
-    background-color: #00b67b;
-    display: inline-flex;
-    white-space: nowrap;
-    max-width: fit-content;
-    border-radius: 6px;
-    padding: 10px 30px;
-    font-size: 20px;
+  &-it {
+    background-color: #4183d7;
   }
-  &google {
-    background-color: #4387f6;
-    display: inline-flex;
-    white-space: nowrap;
-    max-width: fit-content;
-    border-radius: 6px;
-    padding: 10px 30px;
-    font-size: 20px;
+  &-digital {
+    background-color: #2ecc71;
   }
-  &prime-inverse {
-    background-color: #272936;
-    display: inline-flex;
-    white-space: nowrap;
-    max-width: fit-content;
-    border-radius: 6px;
-    padding: 10px 30px;
-    font-size: 20px;
-    text-transform: uppercase;
+  &-telecoms {
+    background-color: #d64541;
+  }
+  &-web {
+    background-color: #926fb1;
+  }
+  &-security {
+    background-color: #f62459;
+  }
+  &-dev-course {
+    background-color: #ce4125;
   }
 }

@@ -4,1314 +4,1736 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/application.css">
     <title>Full Service Digital Agency | Cambridgeshire & Norfolk | Netmatters</title>
 </head>
 
-<body class="home-pg default">
-    <div id="container">
-        <div id="consent-btn-box">
-            <button type="button" class="consent-btn btn">Manage Consent</button>
+
+<body>
+    <div class="page-wrap">
+
+        <!--Consent button-->
+        <div class="consent-button-box">
+            <button type="button" class="consent-button button">
+                Manage Consent
+            </button>
         </div>
-        <!--==============================================================================================================-->
-        <!--============================================================================== Header ========================-->
-        <!--==============================================================================================================-->
-        <div id="header">
-            <header>
-                <div class="inner">
-                    <div class="container">
-                        <div class="row">
-                            <!--================================================================== Logo + Link (Placeholder) ============-->
-                            <div class="logo-box">
-                                <a class="logo" href="#">
-                                    <img src="imgs/net-logo.png" alt="Netmatters" class="logo">
-                                </a>
-                            </div>
-                            <!--TODO=========================================================== Phone button at smaller breakpoint ============-->
-                            <div class="hide-sml hide-med hide-lrg mobl-box">
-                                <a class="mobl" href="#">
-                                    <span class="icn-phn-in-tlk"></span>
-                                </a>
-                            </div>
-                            <!--================================================================================ Action Buttons ============-->
-                            <div class="actns">
-                                <a href="#" target="_blank" class="btn btn-it hide-xsml hide-sml hedr-btn">
-                                    <span class="pull-left icn-mouse"></span>
-                                    Support
-                                </a>
-                                <a href="#" target="_blank" class="btn btn-dflt hide-xsml hide-sml hedr-btn">
-                                    <span class="pull-left icn-pplane"></span>
-                                    Contact
-                                </a>
-                                <!--============================================================================ Search Bars ============-->
-                                <!--TODO - Several different styles at different breakpoints=============================================-->
-                                <div class="hide-xsml pull-left srch-frm-wrap--tablet">
-                                    <form method="GET" action="#" accept-charset="UTF-8" class="srch-frm">
-                                        <label for="srch-inpt" class="hide">Search:</label>
-                                        <input class="frm-cntrl srch-bar" placeholder="Search..." id="srch-inpt"
-                                            name="keyword" type="text" value="">
-                                        <button type="submit" id="srch-submit">
-                                            <span class="icn-srch"></span>
-                                        </button>
-                                    </form>
-                                </div>
 
-                                <!--==============================================================================================================-->
-                                <!--========================================================== Picture Under Nav Bar ==================-->
-                                <!--================================================================== scroll later ============================================-->
-                                <div id="banner" class="is-home">
-                                    <!--======================================================== The EoE Leading Tech Co. - Hero  ============-->
-                                    <div class="item">
-                                        <div class="img-cover-box">
-                                            <picture>
-                                                <!--imgs/picture-slide/home-YLei.webp-->
-                                                <img src="imgs/picture-slide/home-YLei.webp" class="img-cover"
-                                                    alt="The East Of England&#039;s Leading Technology Company Norwich, Norfolk, Cambridge, North London, Essex, Herefordshire,Enfield">
-                                            </picture>
-                                        </div>
-                                        <div class="content">
-                                            <div class="container content-box">
-                                                <div class="txt">
-                                                    <div class="h1">
-                                                        The East Of England&#039;s Leading Technology Company
-                                                    </div>
-                                                    <p>Performance-driven digital and technology services<br>
-                                                        with complete transparency.</p>
-                                                    <a href="#" class="btn btn-web btn-lrg">
-                                                        Why Choose us?
-                                                        <i class="pull-right icn-arrow-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--================================================================= Bespoke Software - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE=========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="Bespoke Software Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                Bespoke Software
-                            </div>
-                            <p>Delivering expert bespoke software<br>
-                                solutions across a range of industries.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+        <header>
+
+            <!--Netmatters logo-->
+            <div class="logo-box">
+                <a class="logo" href="#">
+                    <img src="imgs/net-logo.png" alt="Netmatters" class="logo">
+                </a>
+            </div>
+
+            <!--Phone icon displayed at smaller breakpoints-->
+            <div>
+                <a class="mobile" href="#">
+                    <span class="icon-phone-in-talk"></span>
+                </a>
+            </div>
+
+            <!--Action buttons displayed at larger breakpoints-->
+            <div class="actions">
+                <a href="#" target="_blank" class="button button-it">
+                    <span class="pull-left icon-mouse"></span>
+                    Support
+                </a>
+                <a href="#" target="_blank" class="button button-default">
+                    <span class="pull-left icon-paperplane"></span>
+                    Contact
+                </a>
+            </div>
+
+            <!--Search bar needs to be styled differently at different points-->
+            <div class="hide-xsml pull-left search-form-wrap--tablet">
+                <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
+                    <label for="search-input" class="hide">Search:</label>
+                    <input class="form-control search-bar" placeholder="Search..." id="search-input" name="keyword"
+                        type="text" value="">
+                    <button type="submit" id="search-submit">
+                        <span class="icon-search"></span>
+                    </button>
+                </form>
+            </div>
+
+        </header>
+
+        <nav><!--start of main navigation section-->
+            <div class="main-nav">
+                <div class="container">
+                    <ul class="main-nav-list">
+
+                        <!--Bespoke software - sub menu -->
+                        <li class="software nav-item">
+                            <a href="#">
+                                <span class="icon-apps"></span>
+                                <small>Bespoke</small>
+                                Software
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                    <!--================================================================================ IT Support - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE===========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="IT Support Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                IT Support
-                            </div>
-                            <p>Fast and cost-effective IT support<br>
-                                services for your business.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+
+                                    <!--sub menu heading-->
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Bespoke Software Services
+                                    </li>
+
+                                    <!--start of sub menu items-->
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon fa fa-cogs"></span>
+                                            </span>
+                                            <span class="link-txt">Bespoke CRM</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon icon-breifcase"></span>
+                                            </span>
+                                            <span class="link-txt">Business Automation</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-random"></span>
+                                            </span>
+                                            <span class="link-txt">Software Integrations</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-phone"></span>
+                                            </span>
+                                            <span class="link-txt">Mobile App Development</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-folder-open"></span>
+                                            </span>
+                                            <span class="link-txt">Bespoke Databases</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-transfer"></span>
+                                            </span>
+                                            <span class="link-txt">Sharepoint Development</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-download-alt"></span>
+                                            </span>
+                                            <span class="link-txt">Operational Systems</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-users"></span>
+                                            </span>
+                                            <span class="link-txt">Business Central Implementation</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-laptop"></span>
+                                            </span>
+                                            <span class="link-txt">Internet of Things (IoT) Software</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-cloud"></span>
+                                            </span>
+                                            <span class="link-txt">Intranet Development</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-cloud-download"></span>
+                                            </span>
+                                            <span class="link-txt">Customer Portal Development</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-globe"></span>
+                                            </span>
+                                            <span class="link-txt">Reporting Hub</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                        <!--IT support - sub menu-->
+                        <li class="it nav-item">
+                            <a href="#">
+                                <span class="icon-display"></span>
+                                <small>IT</small>
+                                Support
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                    <!--=========================================================================== Digital Marketing - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE==========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="Digital Marketing Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                Digital Marketing
-                            </div>
-                            <p>Generating your new business through<br>
-                                results-driven marketing activities.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+
+                                    <!--sub menu heading-->
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our IT Support Services
+                                    </li>
+
+                                    <!--start of submenu items-->
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-headphones"></span>
+                                            </span>
+                                            <span class="link-txt">Managed IT Support</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-briefcase"></span>
+                                            </span>
+                                            <span class="link-txt">Business IT Support</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-laptop"></span>
+                                            </span>
+                                            <span class="link-txt">Office 365 for Business</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-graduation-cap"></span>
+                                            </span>
+                                            <span class="link-txt">IT Consultancy</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-cloud"></span>
+                                            </span>
+                                            <span class="link-txt">Cloud Service Provider</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-hdd"></span>
+                                            </span>
+                                            <span>Data Backup &amp; Disaster Recovery</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+
+                        </li>
+
+                        <!--Digital marketing - sub menu-->
+                        <li class="digital nav-item">
+                            <a href="#">
+                                <span class="icon-bar-graph"></span>
+                                <small>Digital</small>
+                                Marketing
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                    <!--=============================================================================== Telecoms Services - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE===========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="Telecoms Services Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                Telecoms Services
-                            </div>
-                            <p>A new approach to connectivity, see<br>
-                                how we can help your business.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Digital Marketing Services
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-search"></span>
+                                            </span>
+                                            <span class="link-txt">Search Engine Optimisation (SEO)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-money"></span>
+                                            </span>
+                                            <span class="link-txt">Pay Per Click Advertising (PPC)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-up-trend"></span>
+                                            </span>
+                                            <span class="link-txt">Conversion Rate Optimisation (CRO)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-envelope"></span>
+                                            </span>
+                                            <span class="link-txt">Email Marketing</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-users"></span>
+                                            </span>
+                                            <span class="link-txt">Social Media Marketing</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-pencil"></span>
+                                            </span>
+                                            <span class="link-txt">Content Marketing</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                        <!--Telecoms services - sub menu-->
+                        <li class="telecoms nav-item">
+                            <a href="#">
+                                <span class="icon-phone-in-talk"></span>
+                                <small>Telecoms</small>
+                                Services
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                    <!--====================================================================================== Web Design - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE===========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="Web Design Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                Web Design
-                            </div>
-                            <p>For businesses looking to make a strong<br>
-                                and effective first impression.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Telecoms Services
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-ticket"></span>
+                                            </span>
+                                            <span class="link-txt">Business Mobile</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-phone"></span>
+                                            </span>
+                                            <span class="link-txt">Hosted VoIP Provider</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-phone-square"></span>
+                                            </span>
+                                            <span class="link-txt">Business VoIP Systems</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-taco-meter"></span>
+                                            </span>
+                                            <span class="link-txt">Business Broadband</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-handshake-o"></span>
+                                            </span>
+                                            <span class="link-txt">Leased Lines Provider</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-phone-in-talk"></span>
+                                            </span>
+                                            <span class="link-txt">3CX Systems</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end taa-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                        <!--Web design - sub menu-->
+                        <li class="web nav-item">
+                            <a href="#">
+                                <span class="icon-code"></span>
+                                <small>Web</small>
+                                Design
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                    <!--=========================================================================================== Cyber Sec. - Hero  ============-->
-                                    <!-- <div class="itm">
-                <div class="img-cover-mdrn-box">
-                    <picture>
-                        TODO - ADD IMAGE===========================================
-                        <img src="#" class="img-cover-mdrn"
-                            alt="Cyber Security Norwich, Norfolk, Cambridge, North London, Essex, Hertfordshire, Enfield">
-                    </picture>
-                </div>
-                <div class="content">
-                    <div class="container content-box">
-                        <div class="txt">
-                            <div class="h1">
-                                Cyber Security
-                            </div>
-                            <p>Keeping businesses and their customers<br>
-                                sensitive information protected.</p>
-                            <a href="#" class="btn btn-web btn-lrg">
-                                Find Out More
-                                <i class="pull-right icn-arrow-right"></i>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Web Design Services
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-pencil"></span>
+                                            </span>
+                                            <span class="link-txt">Bespoke Website Design</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-cart"></span>
+                                            </span>
+                                            <span class="link-txt">eCommerce Website Design</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-display"></span>
+                                            </span>
+                                            <span class="link-txt">Pay Monthly Websites</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-bullhorn"></span>
+                                            </span>
+                                            <span class="link-txt">Branding &amp; Design</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-phone"></span>
+                                            </span>
+                                            <span class="link-txt">Mobile App Development</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-cloud"></span>
+                                            </span>
+                                            <span class="link-txt">Web Hosting</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                        <!--Cyber sec. - sub menu-->
+                        <li class="cyber nav-item">
+                            <a href="#">
+                                <span class="icon-security"></span>
+                                <small>Cyber</small>
+                                Security
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-                                </div>
-                                <!--=============================================================================================================-->
-                                <!--======================================================= Our Services / Partner Badges Sect. =================-->
-                                <!--=============================================================================================================-->
 
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Cyber Security Services
+                                    </li>
 
-                                <div id="middle">
-                                    <!--=============================================================== Our services Sect. ====================-->
-                                    <div class="container sect">
-                                        <div class="cms-block" id="partial-153317">
-                                            <div class="serv-list">
-                                                <div class="row">
-                                                    <div class="clearfix">
-                                                        <h2 class="h1 float-left-sm"><strong>Our Services</strong></h2>
-                                                        <h3 class="float-right-sm hide-xsml"><a href="#">View Our
-                                                                Work<em class="icn-arrow-right"></em></a>
-                                                        </h3>
-                                                    </div>
-                                                    <!--========================================================== Bespoke software ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block software" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-laptop"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Bespoke Software
-                                                            </span>
-                                                            <span class="p">
-                                                                Bespoke software solutions for all your business needs
-                                                                including
-                                                                integrations
-                                                                and reporting
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-software">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--========================================================================== IT support ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block it" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-disp"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                IT Support
-                                                            </span>
-                                                            <span class="p">
-                                                                Fully managed IT support and consultancy packages
-                                                                tailored
-                                                                to meet your
-                                                                exact
-                                                                business needs.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-it">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--===================================================================== Digital marketing ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block digital" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-bar-graph"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Digital Marketing
-                                                            </span>
-                                                            <span class="p">
-                                                                Driven brand awareness &amp; ROI through creative
-                                                                digital
-                                                                marketing
-                                                                campaigns.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-digital">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--=========================================================================== Telecoms services ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block digital" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-phn-in-tlk"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Telecoms Services
-                                                            </span>
-                                                            <span class="p">
-                                                                Business telephony solutions including mobile &amp;
-                                                                connectivity solutions.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-telecoms">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--=============================================================================== Web design ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block web" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-code"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Web Design
-                                                            </span>
-                                                            <span class="p">
-                                                                User-centric design for businesses looking to make a
-                                                                lasting
-                                                                impression.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-web">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--================================================================================ Cyber Sec. ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block security" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-security"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Cyber Security
-                                                            </span>
-                                                            <span class="p">
-                                                                Prevention, testing, consultancy &amp; breach management
-                                                                services.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-security">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--========================================================================= Developer training ====================-->
-                                                    <div class="flex">
-                                                        <a href="#" class="block dev-course" style="width: 100%">
-                                                            <span class="icn">
-                                                                <span class="icn-grad-cap"></span>
-                                                            </span>
-                                                            <span class="h2">
-                                                                Developer Training
-                                                            </span>
-                                                            <span class="p">
-                                                                Web design &amp; software training courses designed to
-                                                                secure a job in
-                                                                tech.
-                                                            </span>
-                                                            <span class="btn-box">
-                                                                <span class="btn btn-dev-course">
-                                                                    Read More
-                                                                </span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <!--============================================================================= View All ====================-->
-                                                    <div class="serv-view-all visible-xsml">
-                                                        <h3 class="float-right-sm">
-                                                            <a href="#">View Our Work <em class="icn-arrow-right"></em>
-                                                            </a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-clipboard"></span>
+                                            </span>
+                                            <span class="link-txt">Cyber Security Assessment</span>
+                                        </a>
+                                    </li>
 
-                                    <!--===================================================================================== Partner badges Sect. ====================-->
-                                    <div class="partner-badge-slide">
-                                        <div class="cms-block" id="partial-153320">
-                                            <div class="sect partners">
-                                                <div class="list sliding-partners">
-                                                    <!--======================================================================Google===============-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/google-partner-logo.webp"
-                                                                alt="Google Partners" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--==============================================================Living wage====================-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/living-wage-logo.webp"
-                                                                alt="Living Wage" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--==================================================================Norfolk Pro-help============-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/norfolk-prohelp-logo.webp"
-                                                                alt="Norfolk Prohelp Logo" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--========================================================================Investing in future growth==========-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/investing-in-future-growth-logo.webp"
-                                                                alt="Investing In Future Growth" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--===================================================================Norfolk Carbon Charter===============-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/norfolk-carbon-charter-logo .webp"
-                                                                alt="Norfolk Carbon Charter" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--=================================================================================PPC============-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/PPC-logo.webp" alt="PPC Logo"
-                                                                class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================Princess Royal Training============-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/princess-royal-trai-logo.webp"
-                                                                alt="Princess Royal Training" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--===============================================================================Future 50===========-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/future-50-logo.webp"
-                                                                alt="Future 50" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--====================================================================================QMS================-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/qms-logo.webp" alt="QMS"
-                                                                class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--==========================================================================================ISO 27001=========-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/iso-27001-logo.webp"
-                                                                alt="ISO 27001" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--=================================================================================Skills of Tomorrow==========-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/skills-of-tomorrow-logo.webp"
-                                                                alt="Skills Of Tomorrow" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                    <!--=======================================================================================Cyber Essentials========-->
-                                                    <div class="itm">
-                                                        <picture>
-                                                            <img src="imgs/partner-logos/cyber-essentials-logo.webp"
-                                                                alt="Cyber Essentials" class="grey-cover">
-                                                        </picture>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--=============================================================================================================-->
-                                    <!--================================================================ Welcome Sect. ==============================-->
-                                    <!--=============================================================================================================-->
-                                    <div class="home-branded-txt">
-                                        <div class="cms-block" id="partial-153323">
-                                            <div class="brand-background">
-                                                <div class="container sect">
-                                                    <div class="row">
-                                                        <div>
-                                                            <h2 class="h1"><strong>Welcome To Netmatters</strong></h2>
-                                                            <p>
-                                                                <strong>
-                                                                    Netmatters is a leading <a href="#">Bespoke
-                                                                        Software</a>, <a href="#">IT
-                                                                        Support</a>, and <a href="#">Digital
-                                                                        Marketing</a>
-                                                                    company based in
-                                                                    the
-                                                                    east of england with offices in&nbsp;<a
-                                                                        href="#">Cambridge</a>, <a
-                                                                        href="#">Wymondham</a>,
-                                                                    and <a href="#">Great Yarmouth</a>.
-                                                                </strong>
-                                                            </p>
-                                                            <p>
-                                                                We aren't tied into contracts with third-party
-                                                                providers, so
-                                                                you know that
-                                                                our
-                                                                recommendations for your business are based purely with
-                                                                one
-                                                                benefit in mind:
-                                                                to
-                                                                help improve your business with the most appropriate
-                                                                solutions.
-                                                            </p>
-                                                            <p>
-                                                                We pride ourselves on being an ethical business and have
-                                                                a
-                                                                unique business
-                                                                offering and cost model that ensures you get
-                                                                the most from our relationship in an upfront manner.
-                                                            </p>
-                                                            <!--============================================================ Welcome - Buttons ====================-->
-                                                            <div>
-                                                                <a href="#" target="_blank"
-                                                                    class="btn btn-prime-inverse">why choose us? <em
-                                                                        class="pull-right icn-arrow-right">
-                                                                    </em></a>
-                                                                &nbsp;&nbsp;
-                                                                <a href="#" target="_blank"
-                                                                    class="btn btn-prime-inverse">our culture <em
-                                                                        class="pull-right icn-arrow-right">
-                                                                    </em></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--================================================================================================-->
-                                                        <!--============================================================= Clients thoughts Sect. ===========-->
-                                                        <!--================================================================================================-->
-                                                        <div>
-                                                            <h2 class="h1"><strong>What Our Clients Think</strong></h2>
-                                                            <!--====================================================================== Stars ========-->
-                                                            <div class="star-box">
-                                                                <div class="icn icn-star" style="
-                                            color: orange; 
-                                            margin-bottom: 25px; 
-                                            font-size: 50px;">
-                                                                </div>
-                                                                <div class="icn icn-star" style="
-                                            color: orange; 
-                                            margin-bottom: 25px; 
-                                            font-size: 50px;">
-                                                                </div>
-                                                                <div class="icn icn-star" style="
-                                            color: orange; 
-                                            margin-bottom: 25px; 
-                                            font-size: 50px;">
-                                                                </div>
-                                                                <div class="icn icn-star" style="
-                                            color: orange; 
-                                            margin-bottom: 25px; 
-                                            font-size: 50px;">
-                                                                </div>
-                                                                <div class="icn icn-star" style="
-                                            color: orange; 
-                                            margin-bottom: 25px; 
-                                            font-size: 50px;">
-                                                                </div>
-                                                            </div>
-                                                            <!--========================================================================= Client quote =========-->
-                                                            <p><span class="client-quote">
-                                                                    Netmatters stood out from the start. Great guys and
-                                                                    very
-                                                                    easy to work
-                                                                    with.
-                                                                    Both the build and digital marketing teams
-                                                                    are clearly skilled -they know their stuff! They
-                                                                    delivered a website to
-                                                                    our
-                                                                    (high!) expectations and went over and above
-                                                                    to ensure we were satisfied clients - and we are!
-                                                                </span></p>
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-clock"></span>
+                                            </span>
+                                            <span class="link-txt">Cyber Security Management</span>
+                                        </a>
+                                    </li>
 
-                                                            <p><span class="client-quote-author">
-                                                                    Eleanor Bishop, Head of Marketing - <a
-                                                                        href="#">Ashcroft
-                                                                        Partnership
-                                                                        LLP</a>
-                                                                </span></p>
-                                                            <!--=================================================================== Review buttons ============-->
-                                                            <div>
-                                                                <a href="#" target="_blank"
-                                                                    class="btn btn-prime btn-google">Google Reviews
-                                                                    <em class="pull-right icn-arrow-right"></em></a>
-                                                                <a href="#" target="_blank"
-                                                                    class="btn btn-prime btn-trustp">TrustPilot
-                                                                    Reviews<em
-                                                                        class="pull-right icn-arrow-right"></em></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--=============================================================================================================-->
-                                    <!--======================================================================= Case Studies Sect. ==================-->
-                                    <!--=============================================================================================================-->
-                                    <div class="cms-block" id="partial-153326">
-                                        <div class="latest-articles">
-                                            <div class="bar">
-                                                <div class="container">
-                                                    <div class="headings-box">
-                                                        <h2 class="h1 float-left-sm"><strong>Latest News</strong></h2>
-                                                        <h3 class="float-right-sm hide-xsml"><a href="#">View
-                                                                All<strong><em
-                                                                        class="icn-arrow-right"></em></strong></a></h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="sect">
-                                                <div class="container">
-                                                    <div class="article-list">
-                                                        <div class="row">
-                                                            <!--========================================= children's cancer - case study ====================-->
-                                                            <div>
-                                                                <div class="item article">
-                                                                    <a class="article-link" href="#"></a>
-                                                                    <div class="img-box">
-                                                                        <a href="#" class="cat-tom btn-ttip"
-                                                                            title="news">
-                                                                            News
-                                                                        </a>
-                                                                        <a class="img stand">
-                                                                            <img src="imgs/tom-lancaster-KBne.png"
-                                                                                class="img-respond"
-                                                                                alt="Tom Lancaster - Netmatters">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="block">
-                                                                        <h3>
-                                                                            <a href="#">
-                                                                                Tom Lancaster – Netmatters 10 Year Hero
-                                                                            </a>
-                                                                            <span class="read-time">
-                                                                                - 4 minute read
-                                                                            </span>
-                                                                        </h3>
-                                                                        <p>
-                                                                            Tom Lancaster – Netmatters 10 Year Hero
-                                                                            Today,
-                                                                            we celebrate the
-                                                                            brilliant accomplishments of Tom Lan...
-                                                                        </p>
-                                                                        <a class="btn btn-tom" href="#">
-                                                                            Read More
-                                                                        </a>
-                                                                        <div class="user">
-                                                                            <div class="avtr">
-                                                                                <picture>
-                                                                                    <img src="imgs/avatar.webp"
-                                                                                        class="img-respond"
-                                                                                        alt="Netmatters">
-                                                                                </picture>
-                                                                            </div>
-                                                                            <div class="deats">
-                                                                                <strong class="txt-prime">
-                                                                                    Posted by Netmatters
-                                                                                </strong><br>
-                                                                                19th June 2024
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--================================================= bunny bistro - case study ====================-->
-                                                            <div>
-                                                                <div class="item article">
-                                                                    <a class="article-link" href="#"></a>
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-flask"></span>
+                                            </span>
+                                            <span class="link-txt">Cyber Penetration Testing</span>
+                                        </a>
+                                    </li>
 
-                                                                    <div class="img-box">
-                                                                        <a href="#" class="cat-tessa btn-ttip"
-                                                                            title="news">
-                                                                            News
-                                                                        </a>
-                                                                        <a class="img stand">
-                                                                            <img src="imgs/tessa-dempsey-Yo3X.png"
-                                                                                class="img-respond"
-                                                                                alt="Tessa Dempsey - Netmatters">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="block">
-                                                                        <h3>
-                                                                            <a href="#">
-                                                                                Tessa Dempsey – Netmatters 5 Year Legend
-                                                                            </a>
-                                                                            <span class="read-time">
-                                                                                - 4 minute read
-                                                                            </span>
-                                                                        </h3>
-                                                                        <p>Tessa Dempsey – Netmatters 5 Year Legend
-                                                                            Today,
-                                                                            we celebrate the
-                                                                            brilliant accomplishments of Tessa...</p>
-                                                                        <a class="btn btn-tessa" href="#">Read More</a>
-                                                                        <div class="user">
-                                                                            <div class="avtr">
-                                                                                <picture>
-                                                                                    <img src="imgs/avatar.webp"
-                                                                                        class="img-respond"
-                                                                                        alt="Netmatters">
-                                                                                </picture>
-                                                                            </div>
-                                                                            <div class="deats">
-                                                                                <strong class="txt-prime">Posted by
-                                                                                    Netmatters</strong><br>1st July 2024
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--===================================================== News ====================-->
-                                                            <div>
-                                                                <div class="item article">
-                                                                    <a class="article-link" href="#"></a>
-                                                                    <div class="img-box">
-                                                                        <a href="#" class="cat-amanda btn-ttip"
-                                                                            title="news">
-                                                                            News
-                                                                        </a>
-                                                                        <a class="img stand">
-                                                                            <img src="imgs/amanda-sharp-MN7f.png"
-                                                                                class="img-respond"
-                                                                                alt="Amanda Sharp - Netmatters">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="block">
-                                                                        <h3>
-                                                                            <a href="#">
-                                                                                Amanda Sharp – Netmatters 5 Year Legend
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-graduation-cap"></span>
+                                            </span>
+                                            <span class="link-txt">Cyber Essentials Certification</span>
+                                        </a>
+                                    </li>
 
-                                                                            </a>
-                                                                            <span class="read-time">
-                                                                                - 5 minute read
-                                                                            </span>
-                                                                        </h3>
-                                                                        <p>
-                                                                            Amanda Sharp – Netmatters 5 Year Legend
-                                                                            Today,
-                                                                            we celebrate the
-                                                                            brilliant accomplishments of Amanda....
-                                                                        </p>
-                                                                        <a class="btn btn-amanda" href="#">
-                                                                            Read More
-                                                                        </a>
-                                                                        <div class="user">
-                                                                            <div class="avtr">
-                                                                                <picture>
-                                                                                    <img src="imgs/avatar.webp"
-                                                                                        class="img-respond"
-                                                                                        alt="Netmatters">
-                                                                                </picture>
-                                                                            </div>
-                                                                            <div class="deats">
-                                                                                <strong class="txt-prime">
-                                                                                    Posted by Netmatters
-                                                                                </strong><br>
-                                                                                27th June 2024
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--===================================================================== View all link ====================-->
-                                            <div class="container late-view-all visible-xsml">
-                                                <h3 class="float-right-sm h3"><a href="#">View All<strong><em
-                                                                class="icn-arrow-right"></em></strong></a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--=============================================================================================================-->
-                                    <!--=============================================================================== Client Badges ===============-->
-                                    <!--=============================================================================================================-->
-                                    <div>
-                                        <div class="cms-block" id="partial-153329">
-                                            <div class="sect clients">
-                                                <div class="list client-slide">
-                                                    <!--============================================================================= Black Swan Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Black Swan Care Group</h3>
-                                                                <p>
-                                                                    Black Swan Care Group own and manage 21 high-quality
-                                                                    care and
-                                                                    residential
-                                                                    homes with a focus on putting the needs of their
-                                                                    residents first.
-                                                                </p>
-                                                                <a href="#" class="btn btn-software">
-                                                                    View Our Case Study
-                                                                    <em class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/black-swan-logo.webp"
-                                                                alt="Black Swan Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Xupes Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box box-no-descp">
-                                                                <h3>Xupes</h3>
-                                                                <p>Xupes.</p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/xupes-logo.webp"
-                                                                alt="Xupes Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= BEAT Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>BEAT</h3>
-                                                                <p>The UK's eating disorder charity founded in 1989.</p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/beat-logo.webp" alt="BEAT Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Survey Solutions Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box box-no-descp">
-                                                                <h3>Survey Solutions</h3>
-                                                                <p>Survey Solution.</p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/survey-solutions-logo.webp"
-                                                                alt="Survey Solutions Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Girl Guiding Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Girl Guiding Anglia</h3>
-                                                                <p>
-                                                                    Girl Guiding Anglia is part of Girlguiding, the UK's
-                                                                    leading charity for
-                                                                    girls and young women in the UK.
-                                                                </p>
-                                                                <a href="#" class="btn btn-it">
-                                                                    View Our Case study
-                                                                    <em class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/girl-guides-anglia-logo.webp"
-                                                                alt="Girl Guiding Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Sweetzy Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Sweetzy</h3>
-                                                                <p>
-                                                                    Sweetzy are an online sweets retailer, based in
-                                                                    wymondham.
-                                                                </p>
-                                                                <a href="#" class="btn btn-digit">
-                                                                    View Our Case study<em
-                                                                        class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/sweetzy-logo.webp"
-                                                                alt="Sweetzy Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Howes Percival Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box box-no-descp">
-                                                                <h3>Howes Percival</h3>
-                                                                <p>Howes Percival.</p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/howes-percival-logo.webp"
-                                                                alt="Howes Percival Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= GDST Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>GDST</h3>
-                                                                <p>
-                                                                    The <a href="#">Girl's Day School Trust (GDST)</a>
-                                                                    is
-                                                                    the UK's leading
-                                                                    family of 25 independent girls' schools.
-                                                                </p>
-                                                                <a href="#" class="btn btn-digit">
-                                                                    View Our Case Study
-                                                                    <em class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/girls-day-school-trust-logo.webp"
-                                                                alt="GDST Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--======================================================================= Ashcroft Partnership LLP Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Ashcroft Partnership LLP</h3>
-                                                                <p>
-                                                                    Originally founded in 2006 as Ashcroft Anthony, they
-                                                                    became Ashcroft
-                                                                    Partnership LLP in 2020 and are one of the top
-                                                                    chartered
-                                                                    accountancy
-                                                                    firms
-                                                                    in Cambridge, advertising entrepreneurs and
-                                                                    families.
-                                                                </p>
-                                                                <a href="#" class="btn btn-web">
-                                                                    View Our Case Study<em
-                                                                        class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/ashcroft-logo.webp"
-                                                                alt="Ashcroft Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= One Traveller Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>One Traveller</h3>
-                                                                <p>
-                                                                    <a href="#" target="_blank">One Traveller</a>,
-                                                                    founded
-                                                                    in 2007, is a
-                                                                    leading
-                                                                    provider of solo holidays for over 50s.
-                                                                </p>
-                                                                <a href="#" class="btn btn-web">
-                                                                    View Our Case Study
-                                                                    <em class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/onetraveller-logo.webp"
-                                                                alt="One Traveller Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Searles leisure Resort Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Searles Leisure Resort</h3>
-                                                                <p>
-                                                                    Searles Leisure Resort, on the beautiful North
-                                                                    Norfolk
-                                                                    coast, is an
-                                                                    award-winning UK holiday resort for families.
-                                                                </p>
-                                                                <a href="#" class="btn btn-digit">
-                                                                    View Our Case Study
-                                                                    <em class="pull-right icn-arrow-right"></em>
-                                                                </a>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/searles-logo.webp"
-                                                                alt="Searles Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Busseys Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Busseys</h3>
-                                                                <p>One of the UK's leading Ford dealerships.</p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/busseys-logo.webp"
-                                                                alt="Busseys Logo">
-                                                        </picture>
-                                                    </div>
-                                                    <!--============================================================================= Crane Garden Building Badge =========-->
-                                                    <div class="itm">
-                                                        <div class="descp">
-                                                            <div class="box">
-                                                                <h3>Crane Garden Building</h3>
-                                                                <p>
-                                                                    Leading manufacturer and supplier of high-end garden
-                                                                    rooms,
-                                                                    summerhouses,
-                                                                    workshops and sheds in th UK.
-                                                                </p>
-                                                                <div class="arrow"></div>
-                                                            </div>
-                                                        </div>
-                                                        <picture>
-                                                            <img src="imgs/client-logos/crane-logo.webp"
-                                                                alt="Crane Garden Buildings Logo">
-                                                        </picture>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-</body>
-<!--==========================================================================================================-->
-<!--============================================================================= Footer Sect. ===============-->
-<!--==========================================================================================================-->
-<footer>
-    <div class="container">
-        <div class="foot-row">
-            <div class="foot-comp-info">
-                <div class="foot-info foot-social-menu">
-                    <!--=============================================================== Netmatters Logo =========-->
-                    <div class="foot-logo">
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-security"></span>
+                                            </span>
+                                            <span class="link-txt">PCI Compliance</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-lock"></span>
+                                            </span>
+                                            <span class="link-txt">Hacking Prevention</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                        <!--Developer courses - sub menu-->
+                        <li class="dev nav-item">
+                            <a href="#">
+                                <span class="icon-graduation-cap"></span>
+                                <small>Developer</small>
+                                Courses
+                            </a>
+
+                            <div class="sub-menu-banner">
+                                <ul class="container sub-menu" role="menu">
+                                    <li class="h2 sub-menu-banner-title">
+                                        Our Developer Course Services
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-laptop"></span>
+                                            </span>
+                                            <span class="link-txt">Train For A Career In Tech</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-code"></span>
+                                            </span>
+                                            <span class="link-txt">Skills Bootcamp</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-help"></span>
+                                            </span>
+                                            <span class="link-txt">Scion Scheme Frequently Asked Questions</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item nav-item--sub-menu">
+                                        <a href="#">
+                                            <span class="link-icon-box">
+                                                <span class="link-icon icon-handshake-o"></span>
+                                            </span>
+                                            <span class="link-txt">Scion Collaborators</span>
+                                        </a>
+                                    </li>
+
+                                </ul><!--container sub menu end tag-->
+                            </div><!--sub menu banner end div-->
+                        </li>
+
+                    </ul><!--main nav list end tag -->
+                </div><!--container end div-->
+            </div><!--main nav end div-->
+        </nav>
+
+        <main>
+            <div class="banner is-home">
+                <div class="item">
+
+                    <!--The EoE Leading Tech Co. - Banner image-->
+                    <div class="image-cover-box">
                         <picture>
-                            <img src="imgs/nm-logo-white-med.webp" alt="Netmatters Logo">
+                            <!--imgs/picture-slide/home-YLei.webp-->
+                            <img src="imgs/picture-slide/home-YLei.webp" class="image-cover"
+                                alt="The East Of England&#039;s Leading Technology Company Norwich, Norfolk, Cambridge, North London, Essex, Herefordshire,Enfield">
                         </picture>
                     </div>
-                    <!--========================================================================= Social Media Links =========-->
-                    <h4>
-                        Follow us on:
-                    </h4>
-                    <div class="foot-social-logos">
-                        <a class="facebook btn-prime" href="#" target="_blank">
-                            <span class="icn-facebook"></span>
-                        </a>
-                        <a class="linkedin btn-prime" href="#" target="_blank">
-                            <span class="icn-linkedin"></span>
-                        </a>
-                        <a class="twitter btn-prime" href="#" target="_blank">
-                            <span class="icn-x"></span>
-                        </a>
-                        <a class="instagram btn-prime" href="#" target="_blank">
-                            <span class="icn-insta"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--================================================================= About Netmatters Links =========-->
-            <div class="row">
-                <div class="foot-menu">
-                    <h4>
-                        About Netmatters
-                    </h4>
-                    <ul>
-                        <li class=" ">
-                            <a href="#">
-                                News
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Our Careers
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Our Team
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Contact Us
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Privacy Policy
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Cookie Policy
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Data Retention &amp; Disposal Policy
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                CCTV Policy
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Environmental Policy
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Terms &amp; Conditions
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!--=============================================================== Our Services Links =========-->
-                <div class="foot-menu">
-                    <h4>
-                        Our Services
-                    </h4>
-                    <ul>
-                        <li class=" ">
-                            <a href="#">
-                                Bespoke Software
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                IT Support
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Digital Marketing
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Telecoms Services
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Web Design
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="">
-                                Cyber Security
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Developer Training
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!--====================================================================== Our Industries Links =========-->
-                <div class="foot-menu">
-                    <h4>
-                        Our Industries
-                    </h4>
-                    <ul>
-                        <li class=" ">
-                            <a href="#">
-                                Financial Services
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Construction
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Retail &amp; E-Commerce
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Non-Profits
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                SME's
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Healthcare
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Education &amp; Training
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Travel &amp; Leisure
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!--===================================================================== Our Locations Links =========-->
-                <div class="foot-menu">
-                    <h4>
-                        Locations
-                    </h4>
-                    <ul>
-                        <li class=" ">
-                            <a href="#">
-                                Cambridge Office
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Wymondham Office
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="#">
-                                Great yarmouth Office
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--========================================================================= Copyright Sect. =========-->
-<div class="foot-bottom">
-    <div class="container box-foot-bottom">
-        <div class="license">
-            &copy; Copyright Netmatters 2024. <br class="visible-xsml"> All rights reserved.
-            <ul>
-                <li class=" ">
-                    <a href="#">
-                        Sitemap
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
+                    <!--Content will be displayed on top of the image -->
+                    <div class="content-box">
+                        <div class="container content">
+                            <div class="text">
+                                <div class="h1">
+                                    The East Of England&#039;s Leading Technology Company
+                                </div>
+                                <p>Performance-driven digital and technology services<br>
+                                    with complete transparency.</p>
+                                <a href="#" class="button button-web button-lrg">
+                                    Why Choose us?
+                                    <i class="pull-right icon-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--Item end div-->
+            </div><!--Banner end div-->
+
+            <div class="middle">
+                <div class="container section">
+                    <div class="services-list">
+                        <div class="row">
+
+                            <!--Our services header and view our work button-->
+                            <div class="clearfix">
+                                <h2 class="h1 float-left-sml"><strong>Our Services</strong></h2>
+                                <h3 class="float-right-sml hide-xsml"><a href="#">View Our
+                                        Work<em class="icon-arrow-right"></em></a>
+                                </h3>
+                            </div>
+
+                            <!--Bespoke software - Service card-->
+                            <div class="flex-card">
+                                <a href="#" class="block software" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-laptop"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Bespoke Software
+                                    </span>
+                                    <span class="p">
+                                        Bespoke software solutions for all your business needs
+                                        including
+                                        integrations
+                                        and reporting
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-software">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--IT support - Service card-->
+                            <div class="flex-card">
+                                <a href="#" class="block it" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-display"></span>
+                                    </span>
+                                    <span class="h2">
+                                        IT Support
+                                    </span>
+                                    <span class="p">
+                                        Fully managed IT support and consultancy packages
+                                        tailored
+                                        to meet your
+                                        exact
+                                        business needs.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-it">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--Digital marketing - Service card-->
+                            <div class="flex-card">
+                                <a href="#" class="block digital" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-bar-graph"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Digital Marketing
+                                    </span>
+                                    <span class="p">
+                                        Driven brand awareness &amp; ROI through creative
+                                        digital
+                                        marketing
+                                        campaigns.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-digital">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--Telecoms services -  Service card-->
+                            <div class="flex-card">
+                                <a href="#" class="block digital" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-phone-in-talk"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Telecoms Services
+                                    </span>
+                                    <span class="p">
+                                        Business telephony solutions including mobile &amp;
+                                        connectivity solutions.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-telecoms">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--Web design - Service Card-->
+                            <div class="flex-card">
+                                <a href="#" class="block web" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-code"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Web Design
+                                    </span>
+                                    <span class="p">
+                                        User-centric design for businesses looking to make a
+                                        lasting
+                                        impression.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-web">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--Cyber Sec. - Services card-->
+                            <div class="flex-card">
+                                <a href="#" class="block security" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-security"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Cyber Security
+                                    </span>
+                                    <span class="p">
+                                        Prevention, testing, consultancy &amp; breach management
+                                        services.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-security">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--Developer training - Service card-->
+                            <div class="flex-card">
+                                <a href="#" class="block dev-course" style="width: 100%">
+                                    <span class="icon">
+                                        <span class="icon-graduation-cap"></span>
+                                    </span>
+                                    <span class="h2">
+                                        Developer Training
+                                    </span>
+                                    <span class="p">
+                                        Web design &amp; software training courses designed to
+                                        secure a job in
+                                        tech.
+                                    </span>
+                                    <span class="button-box">
+                                        <span class="button button-dev-course">
+                                            Read More
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!--View all - Link-->
+                            <div class="services-view-all visible-xsml">
+                                <h3 class="float-right-sml">
+                                    <a href="#">View Our Work <em class="icon-arrow-right"></em>
+                                    </a>
+                                </h3>
+                            </div>
+
+                        </div><!--row end div-->
+                    </div><!--services list end div-->
+                </div><!--container end div-->
+
+                <div class="partner-badge-scroll">
+                    <div class="section partners">
+                        <div class="list scrolling-partners">
+
+                            <!--Google - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/google-partner-logo.webp" alt="Google Partners"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Living wage - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/living-wage-logo.webp" alt="Living Wage"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Norfolk Pro-help - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/norfolk-prohelp-logo.webp" alt="Norfolk Prohelp Logo"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Investing in future growth - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/investing-in-future-growth-logo.webp"
+                                        alt="Investing In Future Growth" class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Norfolk carbon charter - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/norfolk-carbon-charter-logo.webp"
+                                        alt="Norfolk Carbon Charter" class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--PPC - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/PPC-logo.webp" alt="PPC Logo" class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Princess royal training - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/princess-royal-trai-logo.webp"
+                                        alt="Princess Royal Training" class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Future 50 - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/future-50-logo.webp" alt="Future 50"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--QMS - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/qms-logo.webp" alt="QMS" class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--ISO 27001-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/iso-27001-logo.webp" alt="ISO 27001"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Skills of tomorrow - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/skills-of-tomorrow-logo.webp" alt="Skills Of Tomorrow"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                            <!--Cyber essentials - Partner badge-->
+                            <div class="item">
+                                <picture>
+                                    <img src="imgs/partner-logos/cyber-essentials-logo.webp" alt="Cyber Essentials"
+                                        class="grey-cover">
+                                </picture>
+                            </div>
+
+                        </div><!--Scrolling partners end div-->
+                    </div><!--Partners section end div-->
+                </div><!--Partner badge slide end div-->
+
+                <div class="home-about-text">
+                    <div class="brand-background">
+                        <div class="container section">
+                            <div class="row">
+
+                                <!--About us section-->
+                                <div class="welcome-section">
+                                    <h2 class="h1"><strong>Welcome To Netmatters</strong></h2>
+                                    <p>
+                                        <strong>
+                                            Netmatters is a leading <a href="#">Bespoke
+                                                Software</a>, <a href="#">IT
+                                                Support</a>, and <a href="#">Digital
+                                                Marketing</a>
+                                            company based in
+                                            the
+                                            east of england with offices in&nbsp;<a href="#">Cambridge</a>, <a
+                                                href="#">Wymondham</a>,
+                                            and <a href="#">Great Yarmouth</a>.
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        We aren't tied into contracts with third-party
+                                        providers, so
+                                        you know that
+                                        our
+                                        recommendations for your business are based purely with
+                                        one
+                                        benefit in mind:
+                                        to
+                                        help improve your business with the most appropriate
+                                        solutions.
+                                    </p>
+                                    <p>
+                                        We pride ourselves on being an ethical business and have
+                                        a
+                                        unique business
+                                        offering and cost model that ensures you get
+                                        the most from our relationship in an upfront manner.
+                                    </p>
+                                    <!--About us  - Buttons-->
+                                    <div>
+                                        <a href="#" target="_blank" class="button button-prime-inverse">why choose us?
+                                            <em class="pull-right icon-arrow-right">
+                                            </em></a>
+                                        &nbsp;&nbsp;
+                                        <a href="#" target="_blank" class="button button-prime-inverse">our culture <em
+                                                class="pull-right icon-arrow-right">
+                                            </em></a>
+                                    </div>
+                                </div><!--welcome section end div -->
+
+                                <!--Clients thoughts - section-->
+                                <div><!--blank div-->
+                                    <h2 class="h1"><strong>What Our Clients Think</strong></h2>
+
+                                    <!--Stars-->
+                                    <div class="star-box">
+                                        <div class="icon icon-star" style="
+                                                                            color: orange; 
+                                                                            margin-bottom: 25px; 
+                                                                            font-size: 50px;">
+                                        </div>
+                                        <div class="icon icon-star" style="
+                                                                            color: orange; 
+                                                                            margin-bottom: 25px; 
+                                                                            font-size: 50px;">
+                                        </div>
+                                        <div class="icon icon-star" style="
+                                                                            color: orange; 
+                                                                            margin-bottom: 25px; 
+                                                                            font-size: 50px;">
+                                        </div>
+                                        <div class="icon icon-star" style="
+                                                                            color: orange; 
+                                                                            margin-bottom: 25px; 
+                                                                            font-size: 50px;">
+                                        </div>
+                                        <div class="icon icon-star" style="
+                                                                            color: orange; 
+                                                                            margin-bottom: 25px; 
+                                                                            font-size: 50px;">
+                                        </div>
+                                    </div>
+
+                                    <!--Client quote-->
+                                    <p><span class="client-quote">
+                                            Netmatters stood out from the start. Great guys and
+                                            very
+                                            easy to work
+                                            with.
+                                            Both the build and digital marketing teams
+                                            are clearly skilled -they know their stuff! They
+                                            delivered a website to
+                                            our
+                                            (high!) expectations and went over and above
+                                            to ensure we were satisfied clients - and we are!
+                                        </span></p>
+                                    <p><span class="client-quote-author">
+                                            Eleanor Bishop, Head of Marketing - <a href="#">Ashcroft
+                                                Partnership
+                                                LLP</a>
+                                        </span></p>
+
+                                    <!--Review buttons-->
+                                    <div>
+                                        <a href="#" target="_blank" class="button button-prime button-google">Google
+                                            Reviews
+                                            <em class="pull-right icon-arrow-right"></em></a>
+                                        <a href="#" target="_blank"
+                                            class="button button-prime button-trustpilot">TrustPilot
+                                            Reviews<em class="pull-right icon-arrow-right"></em></a>
+                                    </div>
+                                </div><!--end of blank div-->
+
+                            </div><!--Row end div-->
+                        </div><!--Section container end div-->
+                    </div><!--Brand background end div-->
+                </div><!--home about text end div-->
+
+                <div class="latest-articles">
+                    <div class="bar">
+                        <div class="container">
+
+                            <div class="headings-box">
+                                <h2 class="h1 float-left-sml"><strong>Latest News</strong></h2>
+                                <h3 class="float-right-sml hide-xsml"><a href="#">View
+                                        All<strong><em class="icon-arrow-right"></em></strong></a></h3>
+                            </div>
+
+                        </div><!--container end div-->
+                    </div><!--bar end div-->
+
+                    <div class="section">
+                        <div class="container">
+                            <div class="article-list">
+                                <div class="row">
+
+                                    <!--Article one-->
+                                    <div>
+                                        <div class="item article">
+                                            <a class="article-link" href="#"></a>
+                                            <div class="image-box">
+                                                <a href="#" class="cat-tom button-tooltip" title="news">
+                                                    News
+                                                </a>
+                                                <a class="image standard">
+                                                    <img src="imgs/tom-lancaster-KBne.png" class="image-responsive"
+                                                        alt="Tom Lancaster - Netmatters">
+                                                </a>
+                                            </div>
+                                            <div class="block">
+                                                <h3>
+                                                    <a href="#">
+                                                        Tom Lancaster – Netmatters 10 Year Hero
+                                                    </a>
+                                                    <span class="read-time">
+                                                        - 4 minute read
+                                                    </span>
+                                                </h3>
+                                                <p>
+                                                    Tom Lancaster – Netmatters 10 Year Hero
+                                                    Today,
+                                                    we celebrate the
+                                                    brilliant accomplishments of Tom Lan...
+                                                </p>
+                                                <a class="button button-tom" href="#">
+                                                    Read More
+                                                </a>
+                                                <div class="user">
+                                                    <div class="avatar">
+                                                        <picture>
+                                                            <img src="imgs/avatar.webp" class="image-responsive"
+                                                                alt="Netmatters">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="details">
+                                                        <strong class="txt-prime">
+                                                            Posted by Netmatters
+                                                        </strong><br>
+                                                        19th June 2024
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Article 2-->
+                                    <div>
+                                        <div class="item article">
+                                            <a class="article-link" href="#"></a>
+
+                                            <div class="image-box">
+                                                <a href="#" class="cat-tessa button-tooltip" title="news">
+                                                    News
+                                                </a>
+                                                <a class="image standard">
+                                                    <img src="imgs/tessa-dempsey-Yo3X.png" class="image-responsive"
+                                                        alt="Tessa Dempsey - Netmatters">
+                                                </a>
+                                            </div>
+                                            <div class="block">
+                                                <h3>
+                                                    <a href="#">
+                                                        Tessa Dempsey – Netmatters 5 Year Legend
+                                                    </a>
+                                                    <span class="read-time">
+                                                        - 4 minute read
+                                                    </span>
+                                                </h3>
+                                                <p>Tessa Dempsey – Netmatters 5 Year Legend
+                                                    Today,
+                                                    we celebrate the
+                                                    brilliant accomplishments of Tessa...</p>
+                                                <a class="button button-tessa" href="#">Read More</a>
+                                                <div class="user">
+                                                    <div class="avatar">
+                                                        <picture>
+                                                            <img src="imgs/avatar.webp" class="image-responsive"
+                                                                alt="Netmatters">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="details">
+                                                        <strong class="txt-prime">Posted by
+                                                            Netmatters</strong><br>1st July 2024
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--article 3-->
+                                    <div>
+                                        <div class="item article">
+                                            <a class="article-link" href="#"></a>
+                                            <div class="image-box">
+                                                <a href="#" class="cat-amanda button-tooltip" title="news">
+                                                    News
+                                                </a>
+                                                <a class="image standard">
+                                                    <img src="imgs/amanda-sharp-MN7f.png" class="image-responsive"
+                                                        alt="Amanda Sharp - Netmatters">
+                                                </a>
+                                            </div>
+                                            <div class="block">
+                                                <h3>
+                                                    <a href="#">
+                                                        Amanda Sharp – Netmatters 5 Year Legend
+
+                                                    </a>
+                                                    <span class="read-time">
+                                                        - 5 minute read
+                                                    </span>
+                                                </h3>
+                                                <p>
+                                                    Amanda Sharp – Netmatters 5 Year Legend
+                                                    Today,
+                                                    we celebrate the
+                                                    brilliant accomplishments of Amanda....
+                                                </p>
+                                                <a class="button button-amanda" href="#">
+                                                    Read More
+                                                </a>
+                                                <div class="user">
+                                                    <div class="avatar">
+                                                        <picture>
+                                                            <img src="imgs/avatar.webp" class="image-responsive"
+                                                                alt="Netmatters">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="details">
+                                                        <strong class="txt-prime">
+                                                            Posted by Netmatters
+                                                        </strong><br>
+                                                        27th June 2024
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div><!--row end div-->
+                            </div><!--article list end div-->
+                        </div><!--container end div-->
+                    </div><!--section end div-->
+
+                    <!--view all link-->
+                    <div class="container latest-view-all visible-xsml">
+                        <h3 class="float-right-sml h3"><a href="#">View All<strong><em
+                                        class="icon-arrow-right"></em></strong></a></h3>
+                    </div>
+
+                </div><!--Latest articles end div-->
+
+
+                <!--=========================================================-->
+                <!--=======Client badge scroller=============================-->
+                <!--=========================================================-->
+                <div class="section clients">
+                    <div class="list client-scroll">
+
+                        <!--black swan - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Black Swan Care Group</h3>
+                                    <p>
+                                        Black Swan Care Group own and manage 21 high-quality
+                                        care and
+                                        residential
+                                        homes with a focus on putting the needs of their
+                                        residents first.
+                                    </p>
+                                    <a href="#" class="button button-software">
+                                        View Our Case Study
+                                        <em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/black-swan-logo.webp" alt="Black Swan Logo">
+                            </picture>
+                        </div>
+
+                        <!--Xupes - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box box-no-description">
+                                    <h3>Xupes</h3>
+                                    <p>Xupes.</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/xupes-logo.webp" alt="Xupes Logo">
+                            </picture>
+                        </div>
+
+                        <!--beat - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>BEAT</h3>
+                                    <p>The UK's eating disorder charity founded in 1989.</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/beat-logo.webp" alt="BEAT Logo">
+                            </picture>
+                        </div>
+
+                        <!--survey solutions badge -->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box box-no-description">
+                                    <h3>Survey Solutions</h3>
+                                    <p>Survey Solution.</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/survey-solutions-logo.webp" alt="Survey Solutions Logo">
+                            </picture>
+                        </div>
+
+                        <!--girl guiding - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Girl Guiding Anglia</h3>
+                                    <p>
+                                        Girl Guiding Anglia is part of Girlguiding, the UK's
+                                        leading charity for
+                                        girls and young women in the UK.
+                                    </p>
+                                    <a href="#" class="button button-it">
+                                        View Our Case study
+                                        <em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/girl-guides-anglia-logo.webp" alt="Girl Guiding Logo">
+                            </picture>
+                        </div>
+
+                        <!--sweetzy - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Sweetzy</h3>
+                                    <p>
+                                        Sweetzy are an online sweets retailer, based in
+                                        wymondham.
+                                    </p>
+                                    <a href="#" class="button button-digit">
+                                        View Our Case study<em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/sweetzy-logo.webp" alt="Sweetzy Logo">
+                            </picture>
+                        </div>
+
+                        <!--howes percival - client badge -->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box box-no-description">
+                                    <h3>Howes Percival</h3>
+                                    <p>Howes Percival.</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/howes-percival-logo.webp" alt="Howes Percival Logo">
+                            </picture>
+                        </div>
+
+                        <!--gdst - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>GDST</h3>
+                                    <p>
+                                        The <a href="#">Girl's Day School Trust (GDST)</a>
+                                        is
+                                        the UK's leading
+                                        family of 25 independent girls' schools.
+                                    </p>
+                                    <a href="#" class="button button-digit">
+                                        View Our Case Study
+                                        <em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/girls-day-school-trust-logo.webp" alt="GDST Logo">
+                            </picture>
+                        </div>
+
+                        <!--ashcroft partnership llp badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Ashcroft Partnership LLP</h3>
+                                    <p>
+                                        Originally founded in 2006 as Ashcroft Anthony, they
+                                        became Ashcroft
+                                        Partnership LLP in 2020 and are one of the top
+                                        chartered
+                                        accountancy
+                                        firms
+                                        in Cambridge, advertising entrepreneurs and
+                                        families.
+                                    </p>
+                                    <a href="#" class="button button-web">
+                                        View Our Case Study<em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/ashcroft-logo.webp" alt="Ashcroft Logo">
+                            </picture>
+                        </div>
+
+                        <!--one traveller badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>One Traveller</h3>
+                                    <p>
+                                        <a href="#" target="_blank">One Traveller</a>,
+                                        founded
+                                        in 2007, is a
+                                        leading
+                                        provider of solo holidays for over 50s.
+                                    </p>
+                                    <a href="#" class="button button-web">
+                                        View Our Case Study
+                                        <em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/onetraveller-logo.webp" alt="One Traveller Logo">
+                            </picture>
+                        </div>
+
+                        <!--searles leisure resort - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Searles Leisure Resort</h3>
+                                    <p>
+                                        Searles Leisure Resort, on the beautiful North
+                                        Norfolk
+                                        coast, is an
+                                        award-winning UK holiday resort for families.
+                                    </p>
+                                    <a href="#" class="button button-digit">
+                                        View Our Case Study
+                                        <em class="pull-right icon-arrow-right"></em>
+                                    </a>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/searles-logo.webp" alt="Searles Logo">
+                            </picture>
+                        </div>
+
+                        <!--busseys - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Busseys</h3>
+                                    <p>One of the UK's leading Ford dealerships.</p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/busseys-logo.webp" alt="Busseys Logo">
+                            </picture>
+                        </div>
+
+                        <!--Crane garden building - client badge-->
+                        <div class="item">
+                            <div class="description">
+                                <div class="box">
+                                    <h3>Crane Garden Building</h3>
+                                    <p>
+                                        Leading manufacturer and supplier of high-end garden
+                                        rooms,
+                                        summerhouses,
+                                        workshops and sheds in th UK.
+                                    </p>
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            <picture>
+                                <img src="imgs/client-logos/crane-logo.webp" alt="Crane Garden Buildings Logo">
+                            </picture>
+                        </div>
+
+                    </div><!--list client scroll end div-->
+                </div><!--section clients end div-->
+            </div><!--middle end div-->
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-company-info">
+                        <div class="footer-info footer-social-menu">
+
+                            <!--Netmatters logo-->
+                            <div class="footer-logo">
+                                <picture>
+                                    <img src="imgs/nm-logo-white-med.webp" alt="Netmatters Logo">
+                                </picture>
+                            </div>
+
+                            <!--social media icons-->
+                            <h4>
+                                Follow us on:
+                            </h4>
+                            <div class="footer-social-logos">
+                                <a class="facebook button-prime" href="#" target="_blank">
+                                    <span class="icon-facebook"></span>
+                                </a>
+                                <a class="linkedin button-prime" href="#" target="_blank">
+                                    <span class="icon-linkedin"></span>
+                                </a>
+                                <a class="x button-prime" href="#" target="_blank">
+                                    <span class="icon-x"></span>
+                                </a>
+                                <a class="instagram button-prime" href="#" target="_blank">
+                                    <span class="icon-instagram"></span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="footer-menu">
+                                    <!--about Netmatters menu -->
+                                    <h4>
+                                        About Netmatters
+                                    </h4>
+                                    <ul>
+                                        <li class=" ">
+                                            <a href="#">
+                                                News
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Our Careers
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Our Team
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Contact Us
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Privacy Policy
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Cookie Policy
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Data Retention &amp; Disposal Policy
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                CCTV Policy
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Environmental Policy
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Terms &amp; Conditions
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><!--footer menu end div-->
+
+                                <!--Our services links-->
+                                <div class="footer-menu">
+                                    <h4>
+                                        Our Services
+                                    </h4>
+                                    <ul>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Bespoke Software
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                IT Support
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Digital Marketing
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Telecoms Services
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Web Design
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="">
+                                                Cyber Security
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Developer Training
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><!--footer menu end div-->
+
+                                <!--Our industry's links -->
+                                <div class="footer-menu">
+                                    <h4>
+                                        Our Industries
+                                    </h4>
+                                    <ul>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Financial Services
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Construction
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Retail &amp; E-Commerce
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Non-Profits
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                SME's
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Healthcare
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Education &amp; Training
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Travel &amp; Leisure
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><!--footer menu end div-->
+
+                                <!--Our locations links-->
+                                <div class="footer-menu">
+                                    <h4>
+                                        Locations
+                                    </h4>
+                                    <ul>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Cambridge Office
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Wymondham Office
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#">
+                                                Great yarmouth Office
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><!--footer menu end div-->
+
+                            </div><!--row end div-->
+                        </div><!--footer info end div-->
+                    </div><!--footer company info end div-->
+
+                </div><!--footer row end div-->
+            </div><!--container end div-->
+
+        </footer>
+    </div><!--page wrap end div-->
+
+    <!--Copyright section-->
+    <div class="foot-bottom">
+        <div class="container box-foot-bottom">
+            <div class="license">
+                &copy; Copyright Netmatters 2024. <br class="visible-xsml"> All rights reserved.
+                <ul>
+                    <li class=" ">
+                        <a href="#">
+                            Sitemap
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
 
 
 </html>
-
-
-
-
-<!--==================== Sect. ====================-->
-
-<!--============================================-->
-<!--==================  Sect. ==================-->
-<!--============================================-->

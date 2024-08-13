@@ -1,31 +1,26 @@
-.late-view-all {
-  margin-top: 20px;
+.latest-view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 
-  .h3 {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-
-    a {
-      color: #333645;
-      text-decoration: none;
-
-      .icn-arrow-right {
-        margin-left: 5px;
-        font-style: normal;
-      }
-    }
+  a {
+    font-size: 26px;
+    font-weight: 600;
   }
+}
+
+.latest-articles {
+  margin: 10px;
 }
 
 .item.article {
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px #6d6d6d48 solid;
   border-radius: 5px;
   overflow: hidden;
   margin: 10px 0;
 
-  .img-box {
+  .image-box {
     position: relative;
     height: 200px;
     overflow: hidden;
@@ -34,26 +29,26 @@
       &amanda {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 0;
         background-color: #4183c4;
         color: #fff;
         padding: 5px 10px;
         font-size: 12px;
         font-weight: bold;
-        border-radius: 3px;
+        text-transform: uppercase;
         z-index: 2;
       }
       &tessa,
       &tom {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 0;
         background-color: #db8c0d;
         color: #fff;
         padding: 5px 10px;
         font-size: 12px;
         font-weight: bold;
-        border-radius: 3px;
+        text-transform: uppercase;
         z-index: 2;
       }
     }
@@ -81,8 +76,12 @@
 
   .block {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
     h3 {
+      text-align: start;
       font-size: 18px;
       margin-bottom: 5px;
       color: #4183c4;
@@ -98,16 +97,17 @@
       font-size: 14px;
       color: #333;
       margin-bottom: 15px;
+      text-align: start;
     }
 
-    .btn- {
+    .button- {
       &amanda {
         display: inline-block;
         background-color: #4183c4;
         color: #fff;
-        padding: 10px 20px;
         text-decoration: none;
-        font-size: 14px;
+        padding: 5px 20px;
+        font-size: 16px;
         border-radius: 3px;
       }
       &tessa,
@@ -115,9 +115,9 @@
         display: inline-block;
         background-color: #db8c0d;
         color: #fff;
-        padding: 10px 20px;
         text-decoration: none;
-        font-size: 14px;
+        padding: 5px 20px;
+        font-size: 16px;
         border-radius: 3px;
       }
     }
@@ -129,7 +129,7 @@
       border-top: 1px solid #eee;
       padding-top: 15px;
 
-      .avtr {
+      .avatar {
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -143,9 +143,11 @@
         }
       }
 
-      .deats {
+      .details {
         font-size: 14px;
         color: #333;
+        text-align: start;
+        margin-left: 10px;
 
         .txt-prime {
           font-weight: bold;
