@@ -1,13 +1,12 @@
 footer {
-  background-color: #333645;
-  color: #ffffff;
+  background-color: $foot-bg;
+  color: $white;
   padding: 15px 0;
   font-size: 14px;
   a {
-    color: #ffffff;
+    color: $white;
   }
   .footer-menu {
-    padding: 0 15px;
     margin-bottom: 30px;
     &:last-of-type {
       margin-bottom: 0;
@@ -35,8 +34,8 @@ footer {
 
 //bottom footer
 .foot-bottom {
-  background-color: #212330;
-  color: #ffffff;
+  background-color: $foot-bg-sec;
+  color: $white;
   padding: 15px 0 15px 15px;
   font-size: 14px;
   .box-foot-bottom {
@@ -56,7 +55,7 @@ footer {
       li {
         display: flex;
         a {
-          color: #ffffff;
+          color: $white;
           text-decoration: none;
           &:hover {
             text-decoration: underline;

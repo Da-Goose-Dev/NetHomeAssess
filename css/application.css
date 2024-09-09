@@ -593,8 +593,6 @@ body {
   font-size: 1rem;
   letter-spacing: 0.4px;
   color: #666;
-  width: 100%;
-  margin: 0 auto;
 }
 
 h4 {
@@ -611,6 +609,13 @@ a {
 
 main {
   background-color: #f4f4f4;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: auto;
+  height: auto;
 }
 
 .button {
@@ -655,7 +660,6 @@ footer a {
   color: #ffffff;
 }
 footer .footer-menu {
-  padding: 0 15px;
   margin-bottom: 30px;
 }
 footer .footer-menu:last-of-type {
@@ -812,10 +816,6 @@ footer img {
 .latest-view-all a {
   font-size: 26px;
   font-weight: 600;
-}
-
-.latest-articles {
-  margin: 10px;
 }
 
 .item.article {
