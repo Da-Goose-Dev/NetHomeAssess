@@ -1,13 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Poppins", "Open sans", sans-serif;
+  font-family: "Poppins", "Open sans";
   font-size: 1rem;
   letter-spacing: 0.4px;
   color: #666;
-  width: 100%;
-  margin: 0 auto;
 }
 
 h4 {
@@ -23,4 +22,11 @@ a {
 }
 main {
   background-color: #f4f4f4;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: auto;
+  height: auto;
 }
